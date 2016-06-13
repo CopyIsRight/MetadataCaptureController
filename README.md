@@ -22,7 +22,8 @@ pod "MetadataCaptureController"
 
 ## Author
 
-Pietro Caselani, pietro.caselani@involves.com.br
+Pietro Caselani, pc1992@gmail.com
+Felipe Lobo, frlwolf@gmail.com
 
 ## License
 
