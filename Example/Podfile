@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MetadataCaptureController_Tests' do
+  pod 'MetadataCaptureController', :path => '../'
+  
+  pod 'Kiwi'
+end
