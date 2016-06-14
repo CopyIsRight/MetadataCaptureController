@@ -166,8 +166,6 @@
 {
 	CGRect rectOfInterest = [_captureView.videoPreviewLayer metadataOutputRectOfInterestForRect:_captureView.focusLayer.frame];
 
-	NSLog(@"Rect = %@", NSStringFromCGRect(rectOfInterest));
-
 	[[_captureSession.outputs firstObject] setRectOfInterest:rectOfInterest];
 }
 //endregion
