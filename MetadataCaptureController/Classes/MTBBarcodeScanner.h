@@ -10,15 +10,17 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger, MTBCamera) {
-    MTBCameraBack,
-    MTBCameraFront
+typedef NS_ENUM(NSUInteger, MTBCamera)
+{
+	MTBCameraBack,
+	MTBCameraFront
 };
 
-typedef NS_ENUM(NSUInteger, MTBTorchMode) {
-    MTBTorchModeOff,
-    MTBTorchModeOn,
-    MTBTorchModeAuto
+typedef NS_ENUM(NSUInteger, MTBTorchMode)
+{
+	MTBTorchModeOff,
+	MTBTorchModeOn,
+	MTBTorchModeAuto
 };
 
 @interface MTBBarcodeScanner : NSObject

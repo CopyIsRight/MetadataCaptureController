@@ -23,6 +23,13 @@
 	if (_focusView)
 		_scanner.scanRect = _focusView.frame;
 }
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+	[super viewWillDisappear:animated];
+
+	[_scanner stopScanning];
+}
 //endregion
 
 @end
